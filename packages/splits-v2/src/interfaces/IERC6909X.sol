@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 pragma solidity ^0.8.23;
 
-import { IERC5267 } from "@openzeppelin/contracts/interfaces/IERC5267.sol";
+import { IERC5267 } from "@openzeppelin-v4.9.3/contracts/interfaces/IERC5267.sol";
 
 /**
  * @author https://github.com/frangio/erc6909-extensions

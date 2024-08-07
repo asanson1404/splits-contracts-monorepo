@@ -8,7 +8,7 @@ import { SplitV2Lib } from "../libraries/SplitV2.sol";
 import { ERC1271 } from "../utils/ERC1271.sol";
 import { Wallet } from "../utils/Wallet.sol";
 
-import { IERC20 } from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import { IERC20 } from "@openzeppelin-v4.9.3/contracts/token/ERC20/IERC20.sol";
 
 /**
  * @title Split Wallet V2

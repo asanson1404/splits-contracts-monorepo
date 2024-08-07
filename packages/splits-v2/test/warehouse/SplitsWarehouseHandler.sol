@@ -5,7 +5,7 @@ import { SplitsWarehouse } from "../../src/SplitsWarehouse.sol";
 
 import { Cast } from "../../src/libraries/Cast.sol";
 import { Math } from "../../src/libraries/Math.sol";
-import { IERC20 } from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import { IERC20 } from "@openzeppelin-v4.9.3/contracts/token/ERC20/IERC20.sol";
 
 import { Address } from "../utils/Address.sol";
 import { CommonBase } from "forge-std/Base.sol";

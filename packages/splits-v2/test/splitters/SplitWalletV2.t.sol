@@ -7,11 +7,11 @@ import { SplitV2Lib } from "../../src/libraries/SplitV2.sol";
 import { PullSplit, SplitWalletV2 } from "../../src/splitters/pull/PullSplit.sol";
 import { PushSplit } from "../../src/splitters/push/PushSplit.sol";
 import { Ownable } from "../../src/utils/Ownable.sol";
-import { IERC20 } from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import { IERC20 } from "@openzeppelin-v4.9.3/contracts/token/ERC20/IERC20.sol";
 
 import { Pausable } from "../../src/utils/Pausable.sol";
 import { BaseTest } from "../Base.t.sol";
-import { Address } from "@openzeppelin/contracts/utils/Address.sol";
+import { Address } from "@openzeppelin-v4.9.3/contracts/utils/Address.sol";
 
 contract SplitWalletV2Test is BaseTest {
     using SplitV2Lib for SplitV2Lib.Split;

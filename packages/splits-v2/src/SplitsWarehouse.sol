@@ -4,10 +4,10 @@ pragma solidity ^0.8.23;
 import { Cast } from "./libraries/Cast.sol";
 
 import { ERC6909X } from "./tokens/ERC6909X.sol";
-import { IERC20Metadata as IERC20 } from "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol";
-import { SafeERC20 } from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
-import { Address } from "@openzeppelin/contracts/utils/Address.sol";
-import { ShortString, ShortStrings } from "@openzeppelin/contracts/utils/ShortStrings.sol";
+import { IERC20Metadata as IERC20 } from "@openzeppelin-v4.9.3/contracts/token/ERC20/extensions/IERC20Metadata.sol";
+import { SafeERC20 } from "@openzeppelin-v4.9.3/contracts/token/ERC20/utils/SafeERC20.sol";
+import { Address } from "@openzeppelin-v4.9.3/contracts/utils/Address.sol";
+import { ShortString, ShortStrings } from "@openzeppelin-v4.9.3/contracts/utils/ShortStrings.sol";
 
 /**
  * @title Splits Token Warehouse

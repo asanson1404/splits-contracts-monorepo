@@ -5,8 +5,8 @@ import { IERC6909X } from "../interfaces/IERC6909X.sol";
 import { IERC6909XCallback } from "../interfaces/IERC6909XCallback.sol";
 import { UnorderedNonces } from "../utils/UnorderedNonces.sol";
 import { ERC6909 } from "./ERC6909.sol";
-import { EIP712 } from "@openzeppelin/contracts/utils/cryptography/EIP712.sol";
-import { SignatureChecker } from "@openzeppelin/contracts/utils/cryptography/SignatureChecker.sol";
+import { EIP712 } from "@openzeppelin-v4.9.3/contracts/utils/cryptography/EIP712.sol";
+import { SignatureChecker } from "@openzeppelin-v4.9.3/contracts/utils/cryptography/SignatureChecker.sol";
 
 /**
  * @author forked from https://github.com/frangio/erc6909-extensions
