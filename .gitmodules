@@ -1,0 +1,3 @@
+[submodule "packages/splits-v2/lib/solady"]
+	path = packages/splits-v2/lib/solady
+	url = https://github.com/vectorized/solady
