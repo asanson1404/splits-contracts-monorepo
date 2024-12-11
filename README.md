@@ -3,8 +3,9 @@
 This is a mono-repository for the Splits contracts. Current packages in this repository include:
 
 - [Splits - v2](./packages/splits-v2/README.md)
+- [Splits Smart Vaults](./packages/smart-vaults/README.md)
 
-### Installation
+## Installation
 
 The mono repo uses turborepo and pnpm. To install turbo repo, run the following command:
 
@@ -39,6 +40,12 @@ To lint all packages, run the following command:
 ### Deployment
 
 To deploy contracts, please refer to the README in the respective package.
+
+### Disclaimer
+
+This project is provided "as is" with no warranties or guarantees of any kind, express or implied. The developers make no claims about the suitability, reliability, availability, timeliness, security or accuracy of the software or its related documentation. The use of this software is at your own risk.
+
+The developers will not be liable for any damages or losses, whether direct, indirect, incidental or consequential, arising from the use of or inability to use this software or its related documentation, even if advised of the possibility of such damages.
 
 ### Acknowledgements
 
