@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.23;
 
-import { EIP712 } from "@openzeppelin-v4.9.3/contracts/utils/cryptography/EIP712.sol";
-import { SignatureChecker } from "@openzeppelin-v4.9.3/contracts/utils/cryptography/SignatureChecker.sol";
+import { EIP712 } from "@openzeppelin-v5.1.0/contracts/utils/cryptography/EIP712.sol";
+import { SignatureChecker } from "@openzeppelin-v5.1.0/contracts/utils/cryptography/SignatureChecker.sol";
 
 /**
  * @notice ERC-1271 with guards for same signer being used on multiple splits

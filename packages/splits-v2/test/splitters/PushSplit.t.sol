@@ -4,7 +4,7 @@ pragma solidity ^0.8.23;
 import { Clone } from "../../src/libraries/Clone.sol";
 
 import { PushSplit } from "../../src/splitters/push/PushSplit.sol";
-import { IERC20 } from "@openzeppelin-v4.9.3/contracts/token/ERC20/IERC20.sol";
+import { IERC20 } from "@openzeppelin-v5.1.0/contracts/token/ERC20/IERC20.sol";
 
 import { BaseTest } from "../Base.t.sol";
 

@@ -5,8 +5,8 @@ import { Cast } from "../../libraries/Cast.sol";
 import { SplitV2Lib } from "../../libraries/SplitV2.sol";
 import { SplitWalletV2 } from "../SplitWalletV2.sol";
 
-import { IERC20 } from "@openzeppelin-v4.9.3/contracts/token/ERC20/IERC20.sol";
-import { SafeERC20 } from "@openzeppelin-v4.9.3/contracts/token/ERC20/utils/SafeERC20.sol";
+import { IERC20 } from "@openzeppelin-v5.1.0/contracts/token/ERC20/IERC20.sol";
+import { SafeERC20 } from "@openzeppelin-v5.1.0/contracts/token/ERC20/utils/SafeERC20.sol";
 
 /**
  * @title Pull Split Wallet
